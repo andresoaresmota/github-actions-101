@@ -1,12 +1,12 @@
-# GitHub Actions 101
+# GitHub Actions 101 
 
 This repository contains two different projects that are not related to each other.
 
 - `backend` is the backend project
 - `frontend` is the frontend project
-
-<hr />
-
+ 
+<hr /> 
+ 
 ## Backend
 
 > Note: This project contains a seed file to seed your database. Remember to use `npm run seed` before. This script also runs before testing.

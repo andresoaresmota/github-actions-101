@@ -22,7 +22,7 @@ jobs:
           node-version: 16.13.x
           cache: yarn
 
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - run: echo "The workflow is now ready to test your code on the runner."
 
       - name: Install dependecies
         run: yarn cache clean && yarn install --network-concurrency 1
@@ -30,4 +30,3 @@ jobs:
       - name: Running tests
         run: yarn test
 
-        
